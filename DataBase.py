@@ -17,6 +17,8 @@ cur.execute("SELECT * FROM demoekz")
 # Получение результатов запроса
 rows = cur.fetchall()
 
+print(rows)
+
 # Закрытие курсора и соединения
 cur.close()
 conn.close()
